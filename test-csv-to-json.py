@@ -1,4 +1,4 @@
-from Projects.python_projects.csv_to_json import parse_number, parse_numbers_compound_list, make_related_list_key, transpose_compound_list, reformat_compound_list, change_file_extension, group_related_list_values, conditionally_add_quotes
+from csvtojson import parse_number, parse_numbers_compound_list, make_related_list_key, transpose_compound_list, reformat_compound_list, change_file_extension, group_related_list_values, conditionally_add_quotes
 import pytest
 
 def test_parse_number():
